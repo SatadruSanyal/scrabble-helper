@@ -22,7 +22,8 @@ Dictionary Class: from a Head AlphaNode, stores words in the dictionary by setti
 		The Dictionary also contains custom functions to return all possible words given user tiles, 
 			and following from that functions to return the best and longest words.
 
-Engine Class: Currently being used as main and for testing purposes only. 
+Engine Class: Currently being used as main and for testing purposes only.
+                WHEN RUNNING ENGINE, THE FIRST ARGUMENT MUST BE scrabble_words.txt AND THE SECOND MUST BE letter_points.txt
 
 Utils Class: To Contain general utility functions such as reading in files, creating the entire dictionary,
 	creating a hashmap to store letter points, calculating the score of a word etc.
