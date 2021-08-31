@@ -64,7 +64,7 @@ public class Dictionary {
     }
 
     /*lists all possible permutations of words (valid or invalid) from given letters*/
-    //MAKE SURE TO MAKE THIS PRIVATE FOR FINAL PRODUCT
+    /*public only for testing purposes*/
     public List<String> generatePermutations(String letters) {
         List<String> words = new ArrayList<>();
         List<Character> letterList = new ArrayList<>();
